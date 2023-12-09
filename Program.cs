@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace ConsoleApp9
 {
@@ -10,7 +11,11 @@ namespace ConsoleApp9
     {
         static void Main(string[] args)
         {
-            //1Задача 1. Дано целое число n, указывающее номер дня недели от 1 до 7. По указанному номеру n вывести название соответствующего дня недели.
+            Console.Title = "Дидур Даниил - практикум 10";
+
+
+
+            //Задача 1. Дано целое число n, указывающее номер дня недели от 1 до 7. По указанному номеру n вывести название соответствующего дня недели.
 
 
 
@@ -33,7 +38,7 @@ namespace ConsoleApp9
             //Console.ReadLine();
 
 
-            //#2
+
             //Задача 2. В зависимости от порядкового номера месяца (1, 2, ... , 12) вывести на экран его название (январь, февраль, ... , декабрь).
 
 
@@ -58,7 +63,7 @@ namespace ConsoleApp9
             //Console.ReadLine();
 
 
-            //№3
+
             //Задача 3. По номеру месяца вывести название времени года.
 
 
@@ -82,7 +87,7 @@ namespace ConsoleApp9
             //    default:Console.WriteLine("Введите число от 1 до 12");break;
             //}
 
-            //№4
+
             //Задача 4. Вывести название предмета по введенной первой букве: ф – физика, м – математика, и – история, г – география, б – биология.
 
 
@@ -102,7 +107,8 @@ namespace ConsoleApp9
             //    case 'Б': Console.WriteLine("Биология"); break;
             //    default:Console.Write("Введите 1-ую букву одного из предложенных предметов");break;
             //}
-            //Console.ReadLine();
+
+            Console.Read();
         }
     }
 }
